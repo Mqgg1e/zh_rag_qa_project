@@ -1,0 +1,8 @@
+device: "cuda"
+embed_model: "BAAI/bge-large-zh-v1.5"
+llm_model: "Qwen/Qwen1.5-7B-Chat"
+faiss_index_path: "vector_index/faiss_index.index"
+faiss_csv_path: "vector_index/faiss_docs.csv"
+top_k: 3
+max_new_tokens: 150
+temperature: 0.7
